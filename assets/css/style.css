@@ -54,8 +54,6 @@ header {
 }
 
 .aboutMe{
-	/*position: relative;*/
-	background-color: white;
 	width: 400px;
     padding-top: 34px;
     padding-right: 28px;
@@ -75,6 +73,11 @@ p {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.textwrap {
+	clear: border-top: ;
+	float: left;
+	margin: 10px;
+}
 
 aside {
 	background-color: white;
