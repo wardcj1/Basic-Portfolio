@@ -5,19 +5,67 @@ body {
 header {
 	background-color: #ffffff;
 	color:white;
+	width: 960px;
+	height: 80px;
 	border-color: #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-bottom: 10px;
 }
 
-#aboutMe{
+/*.clearFix [
+	clear:both;
+]*/
+
+.links {
+	overflow: auto;
+}
+
+.headerbox{
+	width: 220px;
+	height: 65px;
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	background-color: #4aaaa5;
+	padding-top: 15px;
+	text-align: center;
+	margin-left: 80px;
+	float: left;
+}
+
+.lineup{
+	width: 100px;
+	padding-top: 25px;
+	margin-left: 80px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-decoration: none; 
+	float: left;
+}
+
+.lineup:default {
+	color: silver;
+}
+
+.lineup:visited {
+	color: silver;
+}
+
+.aboutMe{
+	/*position: relative;*/
+	background-color: white;
 	width: 400px;
     padding-top: 34px;
     padding-right: 28px;
     padding-bottom: 34px;
     padding-left: 28px;
 	background-color: #ffffff;
-	margin-top: 32px;
+	margin-top: 100px;
 	margin-left: 138px;
+	margin-bottom: 300px;
+	float: left;
 }
 
 p {
@@ -27,31 +75,24 @@ p {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#connect{
-	width: 240px;
+
+aside {
+	background-color: white;
+	width: 232px;
 	height: 175px;
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-	background-color: #ffffff;
-	float: right;
-	clear;
+	float: left;
+	margin-top: 100px;
+	margin-left: 36px;
 }
 
-button {
-	 background-color: transparent;
-	 border: none;
+.container {
+	overflow: auto;
+	background-color: white;
 }
 
-
-h1 {
-    background-color: #4aaaa5;
-    width: 225px;
-    height: 66px;
-    text-align: center;
-    padding-top: 20px;
-    margin-left: 80px;
+.icons {
+	margin: 10px;
+	float: left;
 }
 
 h2 {
@@ -62,15 +103,34 @@ h2 {
 h3 {
     background-color: white;
     color: #4aaaa5;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+h4 {
+	color: #c7cdb2;
+	padding-top: 15px;
+}
+
+.footerbox {
+	background-color: #4aaaa5;
+	height: 9px;
+	width: 960px;
+	position: fixed;
+	left: 0px;
+	bottom: 80px;
 }
 
 footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
 	background-color: #666666;
-	color: #c7cdb2;
 	text-align: center;
-	vertical-align: 40px;
 	width: 960px;
 	height: 80px;
-	margin-top: 7px;
-	margin-top background: #4aaaa5;  
+	/*background-image:linear-gradient(to bottom, #666666 0%, #4aaaa5 100%);*/
 }
+
+
+
